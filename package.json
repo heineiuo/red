@@ -1,0 +1,24 @@
+{
+  "name": "red",
+  "version": "0.1.0",
+  "description": "A Web UI kit.",
+  "repository": "https://github.com/heineiuo/red.git",
+  "dependencies": {
+    "express": "latest"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-cli": "latest",
+    "grunt-contrib-internal": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-nodeunit": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-qunit": "latest",
+    "grunt-jscs": "latest",
+    "underscore.string": "latest"
+  }
+}

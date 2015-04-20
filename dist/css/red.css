@@ -1,0 +1,17 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.red-html,
+.red-body {
+  height: 100%;
+}
+.after {
+  padding: 0;
+}
+.red-body {
+  margin: 0;
+}
+.page-content {
+  min-height: 100%;
+}
