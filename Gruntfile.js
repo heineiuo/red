@@ -83,9 +83,10 @@ module.exports = function(grunt) {
     },
 
     watch: {
-      files: ['<%= jshint.files %>'],
+      files: ['Gruntfile.js', 'js/**/*.js', 'less/**/*.less'],
       tasks: ['concat', 'uglify', 'less', 'cssmin']
     }
+
   });
 
   grunt.loadNpmTasks('grunt-contrib-less');
