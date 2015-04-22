@@ -10,5 +10,9 @@
     window.red = factory()
   }
 
+
+
   function factory () {
+
+    var html = document.children[0]
     var red = {}

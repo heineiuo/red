@@ -25,6 +25,9 @@ module.exports = function(grunt) {
             'less/reset.less', 
             'less/global.less', 
             'less/layout.less',
+            'less/layout-sm.less',
+            'less/layout-md.less',
+            'less/layout-lg.less',
             'less/elements/btn.less'
           ]
         },
