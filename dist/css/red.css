@@ -8,13 +8,45 @@
 }
 .red-body {
   margin: 0;
+  background-color: #e6e6e6;
+}
+.header {
+  background-color: #fff;
+  height: 50px;
 }
 .page-content {
   min-height: 100%;
+  padding-bottom: 100px;
+}
+.page-content .main-content {
+  position: relative;
+}
+.page-content .sidenav {
+  position: absolute;
+  background-color: #fff;
+}
+.page-content .content {
+  margin: 0 auto;
+}
+.page-content.lg .main-content {
+  padding-left: 300px;
+}
+.page-content.lg .sidenav {
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+}
+.footer-content {
+  min-height: 100px;
+  margin-top: -100px;
 }
 .red-lg,
 .red-md,
 .red-sm,
 .red-min {
   margin: 0 auto;
+}
+.btn-normal {
+  border: 1px solid #ccc;
 }

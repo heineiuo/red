@@ -12,7 +12,9 @@ module.exports = function(grunt) {
         },
         files: {
           'dist/js/red.js': [
-            'js/global.js'
+            'js/global.js',
+            'js/auto_width.js',
+            'js/end.js'
           ]
         },
       },
@@ -22,7 +24,8 @@ module.exports = function(grunt) {
           'tmp/red.less': [
             'less/reset.less', 
             'less/global.less', 
-            'less/layout.less'
+            'less/layout.less',
+            'less/elements/btn.less'
           ]
         },
       }

@@ -1,18 +1,4 @@
-/**
- * 2015-4-20 17:45:55
- */
 
-(function () {
-
-  if (typeof define !== 'undefined' && define.amd) {
-    define([], factory)
-  } else {
-    window.red = factory()
-  }
-
-  function factory () {
-    var red = {}
-;
 window.addEventListener('resize', autoWidth, false)
 
 function autoWidth () {
@@ -38,7 +24,7 @@ function autoWidth () {
 
 }
 
-function splitFind(arr,aim,start,end){
+function splitFind(arr,aim,start,end) {
   if(start>end)
     return -2;
   var mid=Math.round((start+end)/2);
@@ -62,8 +48,4 @@ function inArray(needle, haystack) {
     if(haystack[i] == needle) return true;
   }
   return false;
-};
-    return red
-  }
-
-})()
+}

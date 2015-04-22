@@ -5,15 +5,10 @@
 (function () {
 
   if (typeof define !== 'undefined' && define.amd) {
-    define([], factory)
+    define(['_'], factory)
   } else {
     window.red = factory()
   }
 
   function factory () {
     var red = {}
-
-    return red
-  }
-
-})
